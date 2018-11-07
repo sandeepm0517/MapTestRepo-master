@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/map_view"
+        android:title="@string/showMap"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="1"/>
+
+
+    <item android:id="@+id/list_view"
+        android:title="@string/showListView"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="0"/>
+</menu>
